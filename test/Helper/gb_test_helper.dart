@@ -53,7 +53,7 @@ class GBFeaturesTest {
             (map['features'] as Map<String, dynamic>? ?? {}).map((key, value) {
           return MapEntry(
             key,
-            GBFeature.fromMap(value),
+            GBFeature.fromJson(value),
           );
         }));
   }
