@@ -81,7 +81,7 @@ class GBFeatureResultTest {
         off: map['off'],
         source: map['source'],
         experiment: map['experiment'] != null
-            ? GBExperiment.fromMap(map['experiment'])
+            ? GBExperiment.fromJson(map['experiment'])
             : null,
         experimentResult: map['experimentResult'] != null
             ? GBExperimentResultTest.fromMap(
